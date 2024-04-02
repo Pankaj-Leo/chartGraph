@@ -1,0 +1,149 @@
+<!-- activity_main.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvHeaderMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mid Term submission by Pankaj 50073457"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvTotalStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total No. of Students"
+        app:layout_constraintTop_toBottomOf="@id/tvHeaderMain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etTotalStudents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- As Students -->
+    <TextView
+        android:id="@+id/tvAStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Students"
+        app:layout_constraintTop_toBottomOf="@id/etTotalStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etAStudents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tvAStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvBStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B Students"
+        app:layout_constraintTop_toBottomOf="@id/etAStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etBStudents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tvBStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvCStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C Students"
+        app:layout_constraintTop_toBottomOf="@id/etBStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etCStudents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tvCStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvDStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D Students"
+        app:layout_constraintTop_toBottomOf="@id/etCStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etDStudents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tvDStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvFStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F Students"
+        app:layout_constraintTop_toBottomOf="@id/etDStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etFStudents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/tvFStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnCompute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPUTE"
+        app:layout_constraintTop_toBottomOf="@id/etFStudents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="36dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
